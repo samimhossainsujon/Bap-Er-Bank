@@ -13,7 +13,7 @@ document.getElementById('btn-submit').addEventListener('click',function(){
     // step:4 verify email and password
 
     if(email === 'samim@gmail.com' && password === 'samim'){
-        window.location.href = 'break.html';
+        window.location.href = 'bank.html';
     } else{
         alert('হালায় কামডা করতাছে কি ')
     }
