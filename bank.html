@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,19 +9,77 @@
 
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
 
     <header>
-        <h1 class="text-5xl text-center mt-20"> Lets's Get Some <span class="font-semibold"> MOooooooooooooney</span></h1>
+        <h1 class="text-5xl text-center mt-20"> Lets's Get Some <span class="font-semibold"> MOooooooooooooney</span>
+        </h1>
     </header>
 
 
     <main>
-        
+        <section class="mt-12">
+
+            <div class="grid grid-cols-3 gap-3 w-9/12 mx-auto text-white font-semibold">
+                <div class="bg-green-600 p-8 rounded-xl">
+                    <h4 class="text-2xl">Deposit</h4>
+                    <h2 class="text-5xl">$0000</h2>
+                </div>
+
+                <div class="bg-orange-600 p-8 rounded-xl">
+                    <h4 class="text-2xl">Withdraw</h4>
+                    <h2 class="text-5xl">$0000</h2>
+                </div>
+
+                <div class="bg-red-500 p-8 rounded-xl">
+                    <h4 class="text-2xl">Balance</h4>
+                    <h2 class="text-5xl">$0000</h2>
+                </div>
+
+
+            </div>
+
+
+        </section>
 
 
 
+        <section class="mt-12">
+
+            <div class="grid grid-cols-2 gap-3 w-9/12 mx-auto text-white font-semibold">
+                <div class="bg-pink-500 p-8 rounded-xl">
+                    <h4 class="text-2xl py-4">Please Deposit</h4>
+
+                    <input class="w-9/12 block mb-5 px-3 text-black" type="number" name="" id="deposit-field"
+                        placeholder="$ amount your wont to Deposit">
+                    <button id="btn-submit" class="bg-amber-600 hover:bg-blue-700 px-8 py-2 
+                  text-white font-medium rounded-md">Deposit</button>
+
+                </div>
+
+                <div class="bg-amber-900 p-8 rounded-xl">
+                    <h4 class="text-2xl py-5">Please Withdraw</h4>
+
+                    <input class="w-9/12 block mb-5 px-3 text-black" type="number" name="" id="withdraw-field"
+                        placeholder="$ amount your wont to Withdraw">
+                   
+                        <button id="btn-submit" class="bg-orange-300 hover:bg-blue-700 px-8 py-2 
+                  text-white font-medium rounded-md">Withdraw</button>
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
     </main>
-    
+
+
+    <script src="js/deposit.js"></script>
+
 </body>
+
 </html>
